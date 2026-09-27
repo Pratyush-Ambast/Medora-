@@ -15,7 +15,7 @@ Set these in Vercel/local environment variables:
 
 ## Demo
 
-Open `/demo` and click **Seed / reset demo in Supabase** once. Then use:
+Use the existing demo accounts directly. The demo workflow keeps its current state until you change it through the workflow actions:
 
 - `patient` / `MedoraDemo123!`
 - `pharmacy` / `MedoraDemo123!`
