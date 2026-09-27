@@ -1,0 +1,1 @@
+export function StatusPill({children,tone='sage'}:{children:React.ReactNode;tone?:'sage'|'blue'|'amber'}){const c=tone==='blue'?'bg-[#e1edf4] text-[#416274]':tone==='amber'?'bg-[#f4ecd9] text-[#796338]':'bg-[#e1eee7] text-[#416653]';return <span className={`inline-flex rounded-full px-3 py-1 text-xs font-bold ${c}`}>{children}</span>}
